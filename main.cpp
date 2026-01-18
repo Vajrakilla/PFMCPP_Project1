@@ -72,7 +72,7 @@ cat.beg();
 //  3)
 //  Noun:     phytoplankton
 //  action 1: the phytoplankton obtains energy 
-phytoplankton.photosynthesis();
+phytoplankton.obtainEnergy();
 //  action 2: the phytoplankton produces oxygen
 phytoplankton.produceOxygen();
 //  action 3: the phytoplankton tries to steal the Krabby Patty secret formula
@@ -85,7 +85,7 @@ geyser.erupt();
 //  action 2: the geyser builds pressure
 geyser.buildsPressure();
 //  action 3: the geyser begins new cycle
-gyser.newCycle();
+gyser.beginNewCycle();
 
 //  5)
 //  Noun:     blacksmith
@@ -112,7 +112,7 @@ bird.chirp();
 //  action 2: the bird flies
 bird.fly();
 //  action 3: the bird pecks
-bird.peck()
+bird.peck();
     
 //  8)
 //  Noun:     dishwasher  
@@ -124,13 +124,13 @@ dishwasher.dispenseDetergent();
 dishwasher.dryDishes(); 
 
 //  9)
-//  Noun:     elephant
-//  action 1: the elephant drinks water
-elephant.drinks();
-//  action 2: the elephant blows trunk
-elephant.blowsTrunk();
-//  action 3: the elephant takes a bath
-elephant.takesBath();
+//  Noun:     lawnMower
+//  action 1: the lawn mower cuts grass
+lawnMower.cutGrass();
+//  action 2: the lawn mower uses fuel
+lawnMower.consumeFuel();
+//  action 3: the lawn mower moves forward
+lawnMower.moveForward();
 
 //  10)
 //  Noun:     bankrobber
@@ -139,7 +139,7 @@ bankrobber.holdup();
 //  action 2: the bankrobber fills sack with cash
 bankrobber.fillSack();
 //  action 3: the bankrobber flees to get-away car
-bankrobber.getawayCar();
+bankrobber.fleeToGetawayCar();
 
 #endif
 
